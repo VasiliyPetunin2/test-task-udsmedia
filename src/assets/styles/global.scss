@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-euclid);
+  font-weight: var(--weight-medium);
+
+}
+
+button, input {
+  outline: none;
+  border: none;
+  background: none;
+  display: inline-flex;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}

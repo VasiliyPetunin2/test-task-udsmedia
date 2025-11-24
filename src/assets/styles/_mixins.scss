@@ -1,0 +1,24 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+@mixin placeholder {
+  width: 100% !important;
+  height: 200px !important;
+  background: url("https://placehold.co/600x400") no-repeat !important;
+  background-size: cover !important;
+}
